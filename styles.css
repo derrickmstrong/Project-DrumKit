@@ -1,0 +1,41 @@
+body {
+  background-color: #52acff;
+  background-image: url(./assets/images/dirty-drum.jpg);
+  background-size: cover;
+}
+
+.keys {
+  margin: 5rem 1rem;
+}
+
+.key {
+  padding: 1rem 0.5rem;
+  width: 7rem;
+  border: 0.4rem solid black;
+  border-radius: 7px;
+  margin: 1.5rem 0.75rem;
+  transition: all 0.07s ease;
+  background-color: #ffffff;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(192, 192, 192);
+  box-shadow: 0 0 1rem rgb(192, 192, 192);
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+  background-color: green;
+}
+
+.audio {
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+}
+
+h1, h2 {
+    font-size: 4rem;
+    color: #ffffff;
+}
